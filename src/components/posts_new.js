@@ -32,7 +32,7 @@ class PostsNew extends Component{
       </div>
     );
   }
-  onSubmit(values){    
+  onSubmit(values){
     this.props.createPost(values,()=>{
       this.props.history.push('/');
     });
